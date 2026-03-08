@@ -26,17 +26,41 @@ README.md -> explicacion del ejercicio
 
 # Modulo 1 - Algoritmos
 
-## Ejercicio 1
+# Ejercicio 1 - Estructura Organizacional (Arbol N-ario)
 
-Este ejercicio implementa un algoritmo basico enfocado en analizar la complejidad temporal mediante **Big-O**.
+Este ejercicio modela la **jerarquia de una organizacion universitaria** utilizando un **arbol N-ario**.
 
-El objetivo es comprender como el tiempo de ejecucion crece dependiendo del tamaño de entrada.
+La estructura representa diferentes niveles dentro de la institucion, por ejemplo:
+
+```
+Rectoria
+├── Facultad de Ingenieria
+│   ├── Programa de Sistemas
+│   └── Programa de Electronica
+└── Facultad de Ciencias
+    └── Programa de Matematicas
+```
+
+Cada nodo del arbol representa una unidad dentro de la organizacion.
+
+La implementacion utiliza la clase `OrganizacionNode`, donde cada nodo puede tener multiples hijos.
+
+Para almacenar los hijos se utiliza la estructura:
+
+```python
+dict[str, OrganizacionNode]
+```
+
+Esto permite acceder a los nodos hijos **en tiempo O(1)** usando su nombre.
 
 Conceptos principales:
 
-- analisis de complejidad
-- eficiencia de algoritmos
-- notacion Big-O
+- arboles N-arios
+- estructuras jerarquicas
+- acceso eficiente mediante diccionarios
+- modelado de organizaciones
+
+Ademas, se implementa el metodo magico `__iter__`, que permite recorrer el arbol utilizando un bucle `for`.
 
 
 ## Ejercicio 2 - Diccionario Tecnico (Trie)
