@@ -1,8 +1,5 @@
-# Estructuras de Datos - Proyecto de Modulos
+# Estructuras de Datos - Parcial parte 2
 
-Este repositorio contiene la implementacion de varios ejercicios relacionados con estructuras de datos fundamentales en Python.
-
-Cada ejercicio corresponde a un modulo diferente y explora una estructura de datos o tecnica utilizada en sistemas reales como motores de busqueda, bases de datos o sistemas operativos.
 
 Los ejercicios estan organizados en carpetas independientes con su propio codigo, pruebas y documentacion.
 
@@ -41,9 +38,6 @@ Conceptos principales:
 - eficiencia de algoritmos
 - notacion Big-O
 
----
-
-# Modulo 2 - Tablas Hash
 
 ## Ejercicio 2 - Diccionario Tecnico (Trie)
 
@@ -62,7 +56,7 @@ Conceptos principales:
 - generadores con `yield`
 
 ---
-
+# Modulo 2 - Tablas Hash
 ## Ejercicio 3 - Registro de Estudiantes (Hash Table)
 
 Este ejercicio implementa una **tabla hash desde cero** para almacenar registros de estudiantes usando su ID como clave.
