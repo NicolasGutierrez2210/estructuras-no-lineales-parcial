@@ -2,7 +2,7 @@
 
 ## Descripcion
 
-Este ejercicio implementa una **Hash Table** desde cero para gestionar un registro de estudiantes usando sus **IDs como claves**.
+Este ejercicio implementa una tabala hash desde cero para gestionar un registro de estudiantes usando sus IDs como claves.
 
 Las **tablas hash** permiten almacenar y recuperar datos de forma muy eficiente mediante una funcion hash que transforma una clave en un indice dentro de una estructura de almacenamiento.
 
