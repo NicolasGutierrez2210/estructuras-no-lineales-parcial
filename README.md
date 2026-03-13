@@ -2,6 +2,7 @@
 
 
 Los ejercicios estan organizados en carpetas independientes con su propio codigo, pruebas y documentacion.
+
 EL Abstract se encuentra en la parte de abajo del readme.
 
 ---
